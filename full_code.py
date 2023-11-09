@@ -23,6 +23,7 @@ def getFromLink(link):
         hdd="N/A"
         weight="N/A"
         display="N/A"
+        displrtay="N/A"
 
         # Extract laptop information (modify as needed)s
         name = soup.find('h1', class_='bx-title').text
