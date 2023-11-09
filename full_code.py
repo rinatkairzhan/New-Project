@@ -10,6 +10,7 @@ headers = {
 
 def getFromLink(link):
     response = requests.get(link, headers=headers)
+    newint = 58
 
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, 'html.parser')
